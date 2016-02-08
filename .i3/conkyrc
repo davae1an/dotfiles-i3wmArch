@@ -1,0 +1,98 @@
+background        no
+out_to_console 	  yes
+out_to_x	  no
+update_interval	  2
+total_run_times	  0
+short_units	  yes
+pad_percents	  3
+
+override_utf8_locale yes
+
+TEXT
+,[{"full_text": ${if_mpd_playing} " ","color":  "\#b492b6"},
+  {"full_text": "${mpd_artist 20} - ${mpd_title 30}","color":"\#b492b6"},
+  $else""},$endif
+    {"full_text": " $kernel ","color": "\#303F9F"},
+  {"full_text": "   $acpitemp°C [$cpu%] [$cpubar]","color": "\#ff5252"},
+  {"full_text": "   [$mem][$membar] ", "color":"\#FFA000"},
+  ${if_up wlp3s0}{"full_text": "  ${wireless_essid wlp3s0} [${wireless_link_qual_perc wlp3s0}%] ","color":"\#03A9F4"},
+  $else${if_up ppp0}{"full_text": "  orange ","color":"\#33CC99"},
+  $else${if_up enp4s0}{"full_text": "  enp4s0 ","color":"\#33CC99"},
+  $else{"full_text": " ≈ no connection ","color":"\#33CC99"},$endif$endif$endif
+  
+  
+  ${if_match ${battery_percent BAT0} >= 90}
+  
+    {"full_text": "   $battery_percent%","color":"\#33CC99"},
+    
+  $else
+    ${if_match ${battery_percent BAT0} < 90}
+       
+       ${if_match ${battery_percent BAT0} >=60}
+          {"full_text": "   $battery_percent%","color":"\#33CC99"},
+       
+       $else
+           ${if_match ${battery_percent BAT0} < 60}
+           
+                 ${if_match ${battery_percent BAT0} >=50}
+                     {"full_text": "  $battery_percent%","color":"\#ffee58"},
+                     
+                  $else
+                      ${if_match ${battery_percent BAT0} < 50}
+                          ${if_match ${battery_percent BAT0} >=30}
+                              {"full_text": "  $battery_percent%","color":"\#c62828"},
+                              
+                           $else
+                              {"full_text": "  $battery_percent%","color":"\#c62828"}, 
+                            
+                           $endif    
+                          
+                      
+                      $endif
+                  
+                  
+                  $endif
+           
+                            
+           
+           $endif
+       
+       
+       $endif  
+       
+             
+     
+    $endif
+ 
+  $endif
+  
+ 
+  
+  
+  
+    
+    
+ # ${if_match ${battery_percent BAT0} < 90}$
+   
+   
+ # $else${if_match ${battery_percent BAT0} < 90}${if_match ${battery_percent BAT0} >=60}{"full_text": "  ","color":"\#33CC99"},
+ # $else${if_match ${battery_percent BAT0} < 60}${if_match ${battery_percent BAT0} >=50}{"full_text": "  ","color":"\#33CC99"},
+ # $else ${if_match ${battery_percent BAT0} < 50}${if_match ${battery_percent BAT0} >=30}{"full_text": "   ","color":"\#33CC99"},
+  
+  
+  
+  { "full_text" : " ${time %b %d %Y %I:%M%P}", "color":"\#8BC34A"}
+]
+
+#{"full_text": "  ${execpi 10 ~/.i3/gmail_generic.sh davae1an 'Cookie123G$'}","color":"\#b492b6"},
+#Below is a battery command that changes colour soon fix it
+
+# { "full_text" : "${battery BAT1}" , "color" : 
+#  ${if_match ${battery_percent BAT1}<20}"\#b95670"${else}"\#5f5f5f"${endif} } ,
+
+#Alternate gmail python
+#{"full_text": "  ${execpi 60 python ~/.i3/gmail.py}","color":"\#00FF00"},
+
+#{ "full_text" : "  [$battery_percent%]" , "color" : 
+#  ${if_match [$battery_percent%]<20}"\#E31B25"${else}"\#E31B25"${endif} } ,
+
