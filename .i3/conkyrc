@@ -84,15 +84,5 @@ TEXT
   { "full_text" : " ${time %b %d %Y %I:%M%P}", "color":"\#8BC34A"}
 ]
 
-#{"full_text": "  ${execpi 10 ~/.i3/gmail_generic.sh davae1an 'Cookie123G$'}","color":"\#b492b6"},
-#Below is a battery command that changes colour soon fix it
 
-# { "full_text" : "${battery BAT1}" , "color" : 
-#  ${if_match ${battery_percent BAT1}<20}"\#b95670"${else}"\#5f5f5f"${endif} } ,
-
-#Alternate gmail python
-#{"full_text": "  ${execpi 60 python ~/.i3/gmail.py}","color":"\#00FF00"},
-
-#{ "full_text" : "  [$battery_percent%]" , "color" : 
-#  ${if_match [$battery_percent%]<20}"\#E31B25"${else}"\#E31B25"${endif} } ,
 
