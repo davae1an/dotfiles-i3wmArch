@@ -1,0 +1,1430 @@
+{
+	"folder_history":
+	[
+		"/home/dark/Documents/react/ReduxSimpleStarter-master",
+		"/home/dark/.config/polybar",
+		"/home/dark/Documents/Website",
+		"/home/light/Documents/react/ReduxSimpleStarter-master",
+		"/home/light/Documents/react/ReduxSimpleStarter",
+		"/home/dark/Documents/expressapi/testapi",
+		"/home/dark/Documents/react/ReduxSimpleStarter",
+		"/home/dark/Documents/Angular2",
+		"/home/dark/Documents/expressapi",
+		"/home/dark/Documents/Angular2/recipe-book",
+		"/home/dark/Documents/Angular2/Clockt",
+		"/home/dark/Documents/Angular2/Clockt/.idea",
+		"/home/dark/Documents/featherz",
+		"/home/dark/Documents/Angular2/02-directives",
+		"/home/dark/Documents/Typelearning",
+		"/home/dark/Documents/learn-typescript-master",
+		"/home/dark/Documents",
+		"/home/dark/Documents/vueprojects"
+	],
+	"last_version": 3126,
+	"last_window_id": 38,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"url",
+						"url()"
+					],
+					[
+						"ba",
+						"background"
+					],
+					[
+						"vide",
+						"videoSearch"
+					],
+					[
+						"cons",
+						"const"
+					],
+					[
+						"on",
+						"onInputChange"
+					],
+					[
+						"re",
+						"return\t(index.js)"
+					],
+					[
+						"c",
+						"components"
+					],
+					[
+						"de",
+						"default\t(search_bar.js)"
+					],
+					[
+						"d",
+						"div"
+					],
+					[
+						"se",
+						"searchbar\t(search_bar.js)"
+					],
+					[
+						"s",
+						"src\tAttr"
+					],
+					[
+						"i",
+						"i\tTag"
+					],
+					[
+						"a",
+						"app.routes\tscript"
+					],
+					[
+						"im",
+						"import\timports a module …"
+					],
+					[
+						"f",
+						"forRoot\tmethod"
+					],
+					[
+						"Rout",
+						"RouterModule\talias"
+					],
+					[
+						"con",
+						"const\tkeyword"
+					],
+					[
+						"rec",
+						"recipies.component\tscript"
+					],
+					[
+						"p",
+						"pathMatch\tproperty"
+					],
+					[
+						"impo",
+						"import\tkeyword"
+					],
+					[
+						"li",
+						"list-group"
+					],
+					[
+						"l",
+						"List"
+					],
+					[
+						"sh",
+						"shopping-list\tdirectory"
+					],
+					[
+						"In",
+						"Ingredient\talias"
+					],
+					[
+						"r",
+						"recipeService\tproperty"
+					],
+					[
+						"th",
+						"this\tkeyword"
+					],
+					[
+						"ret",
+						"return\tkeyword"
+					],
+					[
+						"fa",
+						"false\tkeyword"
+					],
+					[
+						"cl",
+						"class\tclass …"
+					],
+					[
+						"Hos",
+						"HostBinding\talias"
+					],
+					[
+						"pri",
+						"private\tkeyword"
+					],
+					[
+						"el",
+						"elementRef\tparameter"
+					],
+					[
+						"Ele",
+						"ElementRef\talias"
+					],
+					[
+						"back",
+						"background-color"
+					],
+					[
+						"b",
+						"border"
+					],
+					[
+						"Re",
+						"Recipe\talias"
+					],
+					[
+						"fr",
+						"from\tkeyword"
+					],
+					[
+						"stri",
+						"string\tkeyword"
+					],
+					[
+						"pub",
+						"public\tkeyword"
+					],
+					[
+						"di",
+						"div\tTag"
+					],
+					[
+						"Aftee",
+						"AfterViewInit\talias"
+					],
+					[
+						"Afte",
+						"AfterContentInit\talias"
+					],
+					[
+						"str",
+						"string\tkeyword"
+					],
+					[
+						"Eve",
+						"EventEmitter\talias"
+					],
+					[
+						"E",
+						"EventEmitter\talias"
+					],
+					[
+						"in",
+						"input\tTag"
+					],
+					[
+						"string",
+						"String\tinterface"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 385.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: re",
+						"Package Control: Remove Package"
+					],
+					[
+						"packa",
+						"Package Control: Install Package"
+					],
+					[
+						"Packag",
+						"Package Control: Install Package"
+					],
+					[
+						"themr",
+						"Themr: List themes"
+					],
+					[
+						"piac",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"showerr",
+						"SublimeLinter: Show Errors on Save"
+					],
+					[
+						"them",
+						"Material Theme: Configuration"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						" insta",
+						"Package Control: Install Package"
+					],
+					[
+						"insall",
+						"Package Control: Install Package"
+					],
+					[
+						"pac",
+						"Install Package Control"
+					]
+				],
+				"width": 505.0
+			},
+			"console":
+			{
+				"height": 216.0,
+				"history":
+				[
+					"ls",
+					"node",
+					"clc",
+					"clear",
+					"ls"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/run/media/dark/TOSHIBA EXT/arch/Documents/wifi.txt",
+				"/home/dark/Documents/vmnet-only/userif.c",
+				"/home/dark/Documents/shared/vpm.txt",
+				"/home/dark/.zshrc",
+				"/home/dark/.oh-my-zsh/custom/themes/powerlevel9k/functions/colors.zsh",
+				"/home/dark/.oh-my-zsh/custom/themes/powerlevel9k/powerlevel9k.zsh-theme",
+				"/home/dark/.config/polybar/config",
+				"/home/dark/.config/i3/config",
+				"/boot/loader/loader.conf",
+				"/home/dark/Documents/Website/index.html",
+				"/home/dark/.config/i3/conkyrc",
+				"/home/dark/Documents/Website/css/materialize.min.css",
+				"/home/dark/Documents/Website/js/parallax.js",
+				"/home/dark/Documents/Website/css/other.css",
+				"/home/dark/Documents/Website/css/materialize.css",
+				"/home/light/Documents/react/ReduxSimpleStarter-master/src/reducers/reducer_books.js",
+				"/home/light/Documents/react/ReduxSimpleStarter-master/src/components/book_list.js",
+				"/home/light/Documents/btc",
+				"/home/light/Documents/react/ReduxSimpleStarter-master/src/reducers/index.js",
+				"/home/light/.config/i3/config",
+				"/home/light/scripts/__pycache__/executor.cpython-36.pyc",
+				"/home/light/.vmware/preferences",
+				"/home/light/.vmware/inventory.vmls",
+				"/home/light/.config/polybar/config",
+				"/.config",
+				"/home/light/Documents/react/ReduxSimpleStarter-Youtube clone/src/components/search_bar.js",
+				"/home/light/.Xresources",
+				"/home/light/Documents/react/ReduxSimpleStarter/src/index.js",
+				"/home/light/.kde4/share/apps/color-schemes/Breeze.colors",
+				"/home/light/.kde4/share/apps/color-schemes/terminal-sexy.colors",
+				"/home/light/.kde4/share/apps/color-schemes/sexy.colors",
+				"/home/light/.local/share/konsole/terminal-sexy.colors",
+				"/home/light/.local/share/konsole/ZSH.profile",
+				"/home/light/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
+				"/home/dark/Documents/expressapi/testapi/routes/index.js",
+				"/etc/bluetooth/main.conf",
+				"/home/dark/Documents/react/ReduxSimpleStarter/src/components/video_detail.js",
+				"/home/dark/Documents/react/ReduxSimpleStarter/src/components/search_bar.js",
+				"/home/dark/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+				"/home/dark/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
+				"/home/dark/.config/sublime-text-3/Packages/Terminal/Terminal.sublime-settings",
+				"/home/dark/Documents/react/ReduxSimpleStarter/src/index.js",
+				"/home/dark/Documents/react/ReduxSimpleStarter/src/components/video_list.js",
+				"/home/dark/Documents/react/ReduxSimpleStarter/.eslintrc",
+				"/home/dark/Documents/btc",
+				"/home/dark/Videos/vmware.sh",
+				"/home/dark/Desktop/vmnet-only/userif.c",
+				"/home/dark/Documents/vmware2/AMPED/amped.txt",
+				"/tmp/vmware-dark/vmware-6793.log",
+				"/run/media/dark/TOSHIBA EXT/.cm0013",
+				"/run/media/dark/TOSHIBA EXT/arch/Documents/test.html",
+				"/run/media/dark/TOSHIBA EXT/arch/Documents/8653251618 Jana",
+				"/run/media/dark/TOSHIBA EXT/arch/Documents/moduli3.css",
+				"/run/media/dark/TOSHIBA EXT/arch/Documents/marvette.hall@utech.edu.jm",
+				"/home/dark/Documents/react/ReduxSimpleStarter/index.html",
+				"/home/dark/Documents/react/ReduxSimpleStarter/src/components/videos_list_item.js",
+				"/home/dark/Documents/react/ReduxSimpleStarter/search_bar.js",
+				"/home/dark/.config/sublime-text-3/Packages/Babel/Babel.sublime-settings",
+				"/home/dark/Documents/react/ReduxSimpleStarter/index.js",
+				"/home/dark/.config/sublime-text-3/Packages/AdvancedNewFile/README.md",
+				"/home/dark/Documents/react/ReduxSimpleStarter/src/components/app.js",
+				"/home/dark/Documents/react/ReduxSimpleStarter/webpack.config.js",
+				"/home/dark/Videos/Angular 2 - The Complete Guide (Updated to final version)/12 Course Project - Forms/Forms-Reactive/src/app/recipes/recipe-edit/recipe-edit.component.html",
+				"/home/dark/Documents/expressapi/package.json",
+				"/home/dark/Documents/Angular2/recipe-book/src/app/app.component.html",
+				"/home/dark/Documents/webage/index.html",
+				"/home/dark/.config/sublime-text-3/Packages/ColorPicker/ColorPicker.sublime-settings",
+				"/home/dark/Documents/Forms-TD/src/app/recipes/recipe-edit/recipe-edit.component.html",
+				"/home/dark/Documents/Forms - HTML/recipe-edit.component.html",
+				"/home/dark/Documents/conky",
+				"/home/dark/Documents/tor",
+				"/run/media/dark/boot/config.txt",
+				"/home/dark/Documents/gruvbox-idea-master/install.sh",
+				"/home/dark/Documents/gruvbox-idea-master/README.md",
+				"/home/dark/.Xresources",
+				"/run/media/dark/TOSHIBA EXT/arch/.Xresources",
+				"/home/dark/Downloads/Solarized theme/Installation.txt",
+				"/run/media/dark/TOSHIBA EXT/vmware/AMPED/amped.txt",
+				"/home/dark/Documents/Angular2/recipe-book/src/app/dropdown.directive.ts",
+				"/home/dark/.local/share/applications/mimeapps.list",
+				"/home/dark/scripts/executor.py",
+				"/home/dark/scripts/volume_control.py",
+				"/home/dark/Documents/config",
+				"/home/dark/Documents/dumh",
+				"/home/dark/.config/compton.conf",
+				"/run/media/dark/TOSHIBA EXT/arch/barber",
+				"/home/dark/Desktop/Systray selection already managed (window=0x220002",
+				"/home/dark/.weechat/irc.conf",
+				"/home/dark/.weechat/weechat.conf",
+				"/home/dark/.weechat/relay.conf",
+				"/home/dark/.config/termite/config",
+				"/home/dark/Documents/marvette.hall@utech.edu.jm",
+				"/home/dark/Documents/moduli3.css",
+				"/home/dark/Documents/wifi.txt",
+				"/run/media/dark/TOSHIBA EXT/Davae/Text Folder/wifi.txt",
+				"/run/media/dark/TOSHIBA EXT/Davae/Dropbox/Davae Stuff/desktop.ini",
+				"/run/media/dark/TOSHIBA EXT/Davae/Text Folder/WifiUtech.txt",
+				"/run/media/dark/TOSHIBA EXT/Davae/Text Folder/test/wpss",
+				"/run/media/dark/TOSHIBA EXT/Davae/Text Folder/commands.txt",
+				"/run/media/dark/TOSHIBA EXT/Davae/Dropbox/Text Files and Other Random Files/dos wifi.txt",
+				"/home/dark/Documents/Angular2/Clockt/src/app/map/map.component.spec.ts",
+				"/home/dark/Documents/Angular2/Clockt/src/app/map/map.component.ts",
+				"/home/dark/.mongorc.js",
+				"/home/dark/Documents/Angular2/Clockt/src/app/map/map.component.css",
+				"/home/dark/Documents/Angular2/Clockt/src/app/app.component.html",
+				"/home/dark/Documents/Angular2/Clockt/src/app/map/map.component.html",
+				"/home/dark/Documents/Angular2/Clockt/src/index.html",
+				"/home/dark/Documents/Angular2/Clockt/src/app/navbar/navbar.component.html",
+				"/home/dark/Documents/Angular2/recipe-book/src/app/header.component.html",
+				"/home/dark/Documents/Angular2/recipe-book/src/app/shopping-list/shopping-list-add.component.ts",
+				"/home/dark/Documents/Angular2/recipe-book/README.md",
+				"/home/dark/.config/sublime-text-3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+				"/home/dark/Documents/8653251618 Jana",
+				"/home/dark/Documents/gruvbox-idea-master/Gruvbox.icls",
+				"/usr/share/icons/Arc/index.theme",
+				"/etc/pacman.d/mirrorlist.pacnew",
+				"/home/dark/Documents/Angular2/recipe-book/src/app/app.routes.ts",
+				"/home/dark/Documents/Angular2/recipe-book/src/app/app.module.ts",
+				"/home/dark/Documents/Angular2/recipe-book/src/app/recipies/recipe-list/recipe-item.component.html",
+				"/home/dark/Documents/Angular2/recipe-book/src/app/recipies/recipe-detail/recipe-detail.component.html",
+				"/home/dark/.config/sublime-text-3/Packages/ColorPicker/README.md",
+				"/home/dark/.config/sublime-text-3/Packages/User/ColorHighlighter.sublime-settings",
+				"/home/dark/Documents/featherz/README.md",
+				"/home/dark/Documents/featherz/src/services/user/index.js",
+				"/home/dark/Documents/Angular2/Clockt/src/styles.css",
+				"/home/dark/Documents/Webstorm/JetBrains WebStorm 2016.3.2 Linux/Crack/Readme.txt",
+				"/home/dark/Documents/Webstorm/JetBrains WebStorm 2016.3.2 Linux/Crack/dvt-jb_licsrv.linux.386",
+				"/home/dark/Documents/Webstorm/JetBrains WebStorm 2016.3.2 Linux/WebStorm-163.9166.30/Install-Linux-tar.txt"
+			],
+			"find":
+			{
+				"height": 84.0
+			},
+			"find_in_files":
+			{
+				"height": 92.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"#if LINUX_VERSION_CODE >= KERNEL_VERSION(4, 6, 0)\n    retval = get_user_pages(addr, 1, 1, 0, &page, NULL);\n#else\n    retval = get_user_pages(current, current->mm, addr,\n                1, 1, 0, &page, NULL);\n#endif",
+					"body",
+					"allowBlacklistedDrivers",
+					"mks.gl.allowBlacklistedDrivers",
+					"scro",
+					"')];",
+					"var"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"})\n",
+					"let"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 35.0
+			},
+			"input":
+			{
+				"height": 58.0
+			},
+			"menu_visible": true,
+			"output.doc":
+			{
+				"height": 0.0
+			},
+			"output.exec":
+			{
+				"height": 32.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.unsaved_changes":
+			{
+				"height": 87.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 66.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 185.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"B",
+						"BOOK_SELECTED\t(index.js)"
+					],
+					[
+						"ex",
+						"export\t(book-list.js)"
+					],
+					[
+						"selec",
+						"selectBook"
+					],
+					[
+						"book",
+						"book"
+					],
+					[
+						"url",
+						"url()"
+					],
+					[
+						"ba",
+						"background"
+					],
+					[
+						"vide",
+						"videoSearch"
+					],
+					[
+						"cons",
+						"const"
+					],
+					[
+						"on",
+						"onInputChange"
+					],
+					[
+						"re",
+						"return\t(index.js)"
+					],
+					[
+						"c",
+						"components"
+					],
+					[
+						"de",
+						"default\t(search_bar.js)"
+					],
+					[
+						"d",
+						"div"
+					],
+					[
+						"se",
+						"searchbar\t(search_bar.js)"
+					],
+					[
+						"s",
+						"src\tAttr"
+					],
+					[
+						"i",
+						"i\tTag"
+					],
+					[
+						"a",
+						"app.routes\tscript"
+					],
+					[
+						"im",
+						"import\timports a module …"
+					],
+					[
+						"f",
+						"forRoot\tmethod"
+					],
+					[
+						"Rout",
+						"RouterModule\talias"
+					],
+					[
+						"con",
+						"const\tkeyword"
+					],
+					[
+						"rec",
+						"recipies.component\tscript"
+					],
+					[
+						"p",
+						"pathMatch\tproperty"
+					],
+					[
+						"impo",
+						"import\tkeyword"
+					],
+					[
+						"li",
+						"list-group"
+					],
+					[
+						"l",
+						"List"
+					],
+					[
+						"sh",
+						"shopping-list\tdirectory"
+					],
+					[
+						"In",
+						"Ingredient\talias"
+					],
+					[
+						"r",
+						"recipeService\tproperty"
+					],
+					[
+						"th",
+						"this\tkeyword"
+					],
+					[
+						"ret",
+						"return\tkeyword"
+					],
+					[
+						"fa",
+						"false\tkeyword"
+					],
+					[
+						"cl",
+						"class\tclass …"
+					],
+					[
+						"Hos",
+						"HostBinding\talias"
+					],
+					[
+						"pri",
+						"private\tkeyword"
+					],
+					[
+						"el",
+						"elementRef\tparameter"
+					],
+					[
+						"Ele",
+						"ElementRef\talias"
+					],
+					[
+						"back",
+						"background-color"
+					],
+					[
+						"b",
+						"border"
+					],
+					[
+						"Re",
+						"Recipe\talias"
+					],
+					[
+						"fr",
+						"from\tkeyword"
+					],
+					[
+						"stri",
+						"string\tkeyword"
+					],
+					[
+						"pub",
+						"public\tkeyword"
+					],
+					[
+						"di",
+						"div\tTag"
+					],
+					[
+						"Aftee",
+						"AfterViewInit\talias"
+					],
+					[
+						"Afte",
+						"AfterContentInit\talias"
+					],
+					[
+						"str",
+						"string\tkeyword"
+					],
+					[
+						"Eve",
+						"EventEmitter\talias"
+					],
+					[
+						"E",
+						"EventEmitter\talias"
+					],
+					[
+						"in",
+						"input\tTag"
+					],
+					[
+						"string",
+						"String\tinterface"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/dark/Documents/react/ReduxSimpleStarter-master/src/containers/book-list.js",
+					"settings":
+					{
+						"buffer_size": 790,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dark/Documents/react/ReduxSimpleStarter-master/src/components/app.js",
+					"settings":
+					{
+						"buffer_size": 225,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dark/Documents/react/ReduxSimpleStarter-master/src/actions/index.js",
+					"settings":
+					{
+						"buffer_size": 97,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dark/Documents/react/ReduxSimpleStarter-master/src/reducers/reducer_active_book.js",
+					"settings":
+					{
+						"buffer_size": 143,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dark/Documents/react/ReduxSimpleStarter-master/src/reducers/index.js",
+					"settings":
+					{
+						"buffer_size": 286,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dark/.config/polybar/config",
+					"settings":
+					{
+						"buffer_size": 7169,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/dark/.config/i3/config",
+					"settings":
+					{
+						"buffer_size": 10709,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 385.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: re",
+						"Package Control: Remove Package"
+					],
+					[
+						"packa",
+						"Package Control: Install Package"
+					],
+					[
+						"Packag",
+						"Package Control: Install Package"
+					],
+					[
+						"themr",
+						"Themr: List themes"
+					],
+					[
+						"piac",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"showerr",
+						"SublimeLinter: Show Errors on Save"
+					],
+					[
+						"them",
+						"Material Theme: Configuration"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						" insta",
+						"Package Control: Install Package"
+					],
+					[
+						"insall",
+						"Package Control: Install Package"
+					],
+					[
+						"pac",
+						"Install Package Control"
+					]
+				],
+				"width": 505.0
+			},
+			"console":
+			{
+				"height": 216.0,
+				"history":
+				[
+					"ls",
+					"node",
+					"clc",
+					"clear",
+					"ls"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/dark/Documents/react/ReduxSimpleStarter-master",
+				"/home/dark/Documents/react/ReduxSimpleStarter-master/src",
+				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/actions",
+				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/components",
+				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/containers",
+				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/reducers",
+				"/home/dark/Documents/react/ReduxSimpleStarter-master/style"
+			],
+			"file_history":
+			[
+				"/home/dark/Documents/vmnet-only/userif.c",
+				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/reducers/reducer_books.js",
+				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/actions/index.js",
+				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/components/app.js",
+				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/reducers/index.js",
+				"/home/dark/.config/polybar/config",
+				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/containers/book-list.js",
+				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/components/book_list.js",
+				"/home/dark/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
+				"/home/dark/.config/i3/config",
+				"/run/media/dark/TOSHIBA EXT/arch/Documents/wifi.txt",
+				"/home/dark/Documents/shared/vpm.txt",
+				"/home/dark/.zshrc",
+				"/home/dark/.oh-my-zsh/custom/themes/powerlevel9k/functions/colors.zsh",
+				"/home/dark/.oh-my-zsh/custom/themes/powerlevel9k/powerlevel9k.zsh-theme",
+				"/boot/loader/loader.conf",
+				"/home/dark/Documents/Website/index.html",
+				"/home/dark/.config/i3/conkyrc",
+				"/home/dark/Documents/Website/css/materialize.min.css",
+				"/home/dark/Documents/Website/js/parallax.js",
+				"/home/dark/Documents/Website/css/other.css",
+				"/home/dark/Documents/Website/css/materialize.css",
+				"/home/light/Documents/react/ReduxSimpleStarter-master/src/reducers/reducer_books.js",
+				"/home/light/Documents/react/ReduxSimpleStarter-master/src/components/book_list.js",
+				"/home/light/Documents/btc",
+				"/home/light/Documents/react/ReduxSimpleStarter-master/src/reducers/index.js",
+				"/home/light/.config/i3/config",
+				"/home/light/scripts/__pycache__/executor.cpython-36.pyc",
+				"/home/light/.vmware/preferences",
+				"/home/light/.vmware/inventory.vmls",
+				"/home/light/.config/polybar/config",
+				"/.config",
+				"/home/light/Documents/react/ReduxSimpleStarter-Youtube clone/src/components/search_bar.js",
+				"/home/light/.Xresources",
+				"/home/light/Documents/react/ReduxSimpleStarter/src/index.js",
+				"/home/light/.kde4/share/apps/color-schemes/Breeze.colors",
+				"/home/light/.kde4/share/apps/color-schemes/terminal-sexy.colors",
+				"/home/light/.kde4/share/apps/color-schemes/sexy.colors",
+				"/home/light/.local/share/konsole/terminal-sexy.colors",
+				"/home/light/.local/share/konsole/ZSH.profile",
+				"/home/light/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
+				"/home/dark/Documents/expressapi/testapi/routes/index.js",
+				"/etc/bluetooth/main.conf",
+				"/home/dark/Documents/react/ReduxSimpleStarter/src/components/video_detail.js",
+				"/home/dark/Documents/react/ReduxSimpleStarter/src/components/search_bar.js",
+				"/home/dark/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+				"/home/dark/.config/sublime-text-3/Packages/Terminal/Terminal.sublime-settings",
+				"/home/dark/Documents/react/ReduxSimpleStarter/src/index.js",
+				"/home/dark/Documents/react/ReduxSimpleStarter/src/components/video_list.js",
+				"/home/dark/Documents/react/ReduxSimpleStarter/.eslintrc",
+				"/home/dark/Documents/btc",
+				"/home/dark/Videos/vmware.sh",
+				"/home/dark/Desktop/vmnet-only/userif.c",
+				"/home/dark/Documents/vmware2/AMPED/amped.txt",
+				"/tmp/vmware-dark/vmware-6793.log",
+				"/run/media/dark/TOSHIBA EXT/.cm0013",
+				"/run/media/dark/TOSHIBA EXT/arch/Documents/test.html",
+				"/run/media/dark/TOSHIBA EXT/arch/Documents/8653251618 Jana",
+				"/run/media/dark/TOSHIBA EXT/arch/Documents/moduli3.css",
+				"/run/media/dark/TOSHIBA EXT/arch/Documents/marvette.hall@utech.edu.jm",
+				"/home/dark/Documents/react/ReduxSimpleStarter/index.html",
+				"/home/dark/Documents/react/ReduxSimpleStarter/src/components/videos_list_item.js",
+				"/home/dark/Documents/react/ReduxSimpleStarter/search_bar.js",
+				"/home/dark/.config/sublime-text-3/Packages/Babel/Babel.sublime-settings",
+				"/home/dark/Documents/react/ReduxSimpleStarter/index.js",
+				"/home/dark/.config/sublime-text-3/Packages/AdvancedNewFile/README.md",
+				"/home/dark/Documents/react/ReduxSimpleStarter/src/components/app.js",
+				"/home/dark/Documents/react/ReduxSimpleStarter/webpack.config.js",
+				"/home/dark/Videos/Angular 2 - The Complete Guide (Updated to final version)/12 Course Project - Forms/Forms-Reactive/src/app/recipes/recipe-edit/recipe-edit.component.html",
+				"/home/dark/Documents/expressapi/package.json",
+				"/home/dark/Documents/Angular2/recipe-book/src/app/app.component.html",
+				"/home/dark/Documents/webage/index.html",
+				"/home/dark/.config/sublime-text-3/Packages/ColorPicker/ColorPicker.sublime-settings",
+				"/home/dark/Documents/Forms-TD/src/app/recipes/recipe-edit/recipe-edit.component.html",
+				"/home/dark/Documents/Forms - HTML/recipe-edit.component.html",
+				"/home/dark/Documents/conky",
+				"/home/dark/Documents/tor",
+				"/run/media/dark/boot/config.txt",
+				"/home/dark/Documents/gruvbox-idea-master/install.sh",
+				"/home/dark/Documents/gruvbox-idea-master/README.md",
+				"/home/dark/.Xresources",
+				"/run/media/dark/TOSHIBA EXT/arch/.Xresources",
+				"/home/dark/Downloads/Solarized theme/Installation.txt",
+				"/run/media/dark/TOSHIBA EXT/vmware/AMPED/amped.txt",
+				"/home/dark/Documents/Angular2/recipe-book/src/app/dropdown.directive.ts",
+				"/home/dark/.local/share/applications/mimeapps.list",
+				"/home/dark/scripts/executor.py",
+				"/home/dark/scripts/volume_control.py",
+				"/home/dark/Documents/config",
+				"/home/dark/Documents/dumh",
+				"/home/dark/.config/compton.conf",
+				"/run/media/dark/TOSHIBA EXT/arch/barber",
+				"/home/dark/Desktop/Systray selection already managed (window=0x220002",
+				"/home/dark/.weechat/irc.conf",
+				"/home/dark/.weechat/weechat.conf",
+				"/home/dark/.weechat/relay.conf",
+				"/home/dark/.config/termite/config",
+				"/home/dark/Documents/marvette.hall@utech.edu.jm",
+				"/home/dark/Documents/moduli3.css",
+				"/home/dark/Documents/wifi.txt",
+				"/run/media/dark/TOSHIBA EXT/Davae/Text Folder/wifi.txt",
+				"/run/media/dark/TOSHIBA EXT/Davae/Dropbox/Davae Stuff/desktop.ini",
+				"/run/media/dark/TOSHIBA EXT/Davae/Text Folder/WifiUtech.txt",
+				"/run/media/dark/TOSHIBA EXT/Davae/Text Folder/test/wpss",
+				"/run/media/dark/TOSHIBA EXT/Davae/Text Folder/commands.txt",
+				"/run/media/dark/TOSHIBA EXT/Davae/Dropbox/Text Files and Other Random Files/dos wifi.txt",
+				"/home/dark/Documents/Angular2/Clockt/src/app/map/map.component.spec.ts",
+				"/home/dark/Documents/Angular2/Clockt/src/app/map/map.component.ts",
+				"/home/dark/.mongorc.js",
+				"/home/dark/Documents/Angular2/Clockt/src/app/map/map.component.css",
+				"/home/dark/Documents/Angular2/Clockt/src/app/app.component.html",
+				"/home/dark/Documents/Angular2/Clockt/src/app/map/map.component.html",
+				"/home/dark/Documents/Angular2/Clockt/src/index.html",
+				"/home/dark/Documents/Angular2/Clockt/src/app/navbar/navbar.component.html",
+				"/home/dark/Documents/Angular2/recipe-book/src/app/header.component.html",
+				"/home/dark/Documents/Angular2/recipe-book/src/app/shopping-list/shopping-list-add.component.ts",
+				"/home/dark/Documents/Angular2/recipe-book/README.md",
+				"/home/dark/.config/sublime-text-3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+				"/home/dark/Documents/8653251618 Jana",
+				"/home/dark/Documents/gruvbox-idea-master/Gruvbox.icls",
+				"/usr/share/icons/Arc/index.theme",
+				"/etc/pacman.d/mirrorlist.pacnew",
+				"/home/dark/Documents/Angular2/recipe-book/src/app/app.routes.ts",
+				"/home/dark/Documents/Angular2/recipe-book/src/app/app.module.ts",
+				"/home/dark/Documents/Angular2/recipe-book/src/app/recipies/recipe-list/recipe-item.component.html",
+				"/home/dark/Documents/Angular2/recipe-book/src/app/recipies/recipe-detail/recipe-detail.component.html",
+				"/home/dark/.config/sublime-text-3/Packages/ColorPicker/README.md",
+				"/home/dark/.config/sublime-text-3/Packages/User/ColorHighlighter.sublime-settings"
+			],
+			"find":
+			{
+				"height": 66.0
+			},
+			"find_in_files":
+			{
+				"height": 92.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"time",
+					"#if LINUX_VERSION_CODE >= KERNEL_VERSION(4, 6, 0)\n    retval = get_user_pages(addr, 1, 1, 0, &page, NULL);\n#else\n    retval = get_user_pages(current, current->mm, addr,\n                1, 1, 0, &page, NULL);\n#endif",
+					"body",
+					"allowBlacklistedDrivers",
+					"mks.gl.allowBlacklistedDrivers",
+					"scro",
+					"')];",
+					"var"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"})\n",
+					"let"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/dark/Documents/react/ReduxSimpleStarter-master"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 6,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/dark/Documents/react/ReduxSimpleStarter-master/src/containers/book-list.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 790,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										413,
+										413
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"auto_complete": false,
+									"color_scheme": "Packages/User/Color Highlighter/themes/gruvbox (Dark) (Medium).tmTheme",
+									"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/dark/Documents/react/ReduxSimpleStarter-master/src/components/app.js",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 225,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										147,
+										147
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/dark/Documents/react/ReduxSimpleStarter-master/src/actions/index.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 97,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										97,
+										97
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"auto_complete": false,
+									"color_scheme": "Packages/User/Color Highlighter/themes/gruvbox (Dark) (Medium).tmTheme",
+									"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/dark/Documents/react/ReduxSimpleStarter-master/src/reducers/reducer_active_book.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 143,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										36,
+										36
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"auto_complete": false,
+									"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/dark/Documents/react/ReduxSimpleStarter-master/src/reducers/index.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 286,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										40,
+										40
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"auto_complete": false,
+									"color_scheme": "Packages/User/Color Highlighter/themes/gruvbox (Dark) (Medium).tmTheme",
+									"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/dark/.config/polybar/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 7169,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4298,
+										4298
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"syntax": "Packages/CSS/CSS.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 4029.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/home/dark/.config/i3/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 10709,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										6305,
+										6304
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"syntax": "Packages/CSS/CSS.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 3695.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 35.0
+			},
+			"input":
+			{
+				"height": 58.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.doc":
+			{
+				"height": 0.0
+			},
+			"output.exec":
+			{
+				"height": 32.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.unsaved_changes":
+			{
+				"height": 87.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,0,0,0,1600,900",
+			"project": "",
+			"replace":
+			{
+				"height": 66.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 158.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 36,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
