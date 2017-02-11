@@ -1,0 +1,209 @@
+background        no
+out_to_console 	  yes
+out_to_x	  no
+update_interval	  1
+total_run_times	  0
+short_units	  yes
+pad_percents	  3
+
+override_utf8_locale yes
+#           # "      "
+TEXT
+,[
+    {"full_text": "  $kernel ","color": "\#ebdbb2"},
+
+  {"full_text": "   $acpitemp°C ($cpu%)","color": "\#ebdbb2"},
+
+  ${if_match $cpu >= 90}
+
+    {"full_text": "**","color":"\#c62828"},
+
+
+  $else
+    ${if_match $cpu < 90}
+
+       ${if_match $cpu >=60}
+          {"full_text": "*     *","color":"\#c62828"},
+
+
+       $else
+           ${if_match $cpu < 60}
+
+                 ${if_match $cpu >=50}
+                     {"full_text": "*           *","color":"\#FF6D00"},
+
+                  $else
+                      ${if_match $cpu < 50}
+                          ${if_match $cpu >=30}
+                              {"full_text": "*              *","color":"\#ffee58"},
+
+                           $else
+                                ${if_match $cpu < 30}
+
+                                   ${if_match $cpu >= 20}
+
+                                    {"full_text": "*                 *","color":"\#33CC99"},
+
+
+                                   $else
+                                    {"full_text": "*        *" ,"color":"\#33CC99"},
+
+                                   $endif
+                                $endif
+
+                           $endif
+
+
+                      $endif
+
+
+                  $endif
+
+
+           $endif
+
+
+       $endif
+
+
+
+    $endif
+
+ $endif
+
+  {"full_text": "   ($mem)", "color":"\#ebdbb2"},
+
+
+
+
+ ${if_match $memperc >= 90}
+
+    {"full_text": "**","color":"\#c62828"},
+
+
+  $else
+    ${if_match $memperc < 90}
+
+       ${if_match $memperc >=60}
+          {"full_text": "*     *","color":"\#c62828"},
+
+
+       $else
+           ${if_match $memperc < 60}
+
+                 ${if_match $memperc >=50}
+                     {"full_text": "*           *","color":"\#FF6D00"},
+
+                  $else
+                      ${if_match $memperc < 50}
+                          ${if_match $memperc >=30}
+                              {"full_text": "*              *","color":"\#ffee58"},
+
+                           $else
+                                ${if_match $memperc < 30}
+
+                                   ${if_match $memperc >= 20}
+
+                                    {"full_text": "*                 *","color":"\#33CC99"},
+
+
+                                   $else
+                                    {"full_text": "*        *" ,"color":"\#33CC99"},
+
+                                   $endif
+                                $endif
+
+                           $endif
+
+
+                      $endif
+
+
+                  $endif
+
+
+           $endif
+
+
+       $endif
+
+
+
+    $endif
+
+ $endif
+
+
+
+
+
+
+
+  ${if_up wlp2s0}{"full_text": "  ${wireless_essid wlp2s0} (${wireless_link_qual_perc wlp2s0}%) ","color":"\#ebdbb2"}, $endif
+
+
+
+
+
+
+
+
+  ${if_match ${battery_percent BAT0} >= 90}
+
+    {"full_text": "   $battery_percent% ${execi 5 acpi | grep -Eo '(:?[0-9]+){3}'}", "color":"\#33CC99"},
+
+  $else
+    ${if_match ${battery_percent BAT0} < 90}
+
+       ${if_match ${battery_percent BAT0} >=60}
+          {"full_text": "   $battery_percent% ${execi 5 acpi | grep -Eo '(:?[0-9]+){3}'}","color":"\#33CC99"},
+
+       $else
+           ${if_match ${battery_percent BAT0} < 60}
+
+                 ${if_match ${battery_percent BAT0} >=50}
+                     {"full_text": "  $battery_percent% ${execi 5 acpi | grep -Eo '(:?[0-9]+){3}'}","color":"\#ffee58"},
+
+                  $else
+                      ${if_match ${battery_percent BAT0} < 50}
+                          ${if_match ${battery_percent BAT0} >=30}
+                              {"full_text": "  $battery_percent% ${execi 5 acpi | grep -Eo '(:?[0-9]+){3}'}","color":"\#FF6D00"},
+
+                           $else
+                                ${if_match ${battery_percent BAT0} < 30}
+
+                                   ${if_match ${battery_percent BAT0} >= 20}
+
+                                    {"full_text": "  $battery_percent% ${execi 5 acpi | grep -Eo '(:?[0-9]+){3}'}","color":"\#c62828"},
+                                   $else
+                                    {"full_text": "  $battery_percent% ${execi 5 acpi | grep -Eo '(:?[0-9]+){3}'}","color":"\#c62828"},
+                                   $endif
+                                $endif
+
+                           $endif
+
+
+                      $endif
+
+
+                  $endif
+
+
+           $endif
+
+
+       $endif
+
+
+
+    $endif
+
+ $endif
+
+
+
+
+
+
+  { "full_text" : " ${time %b %d %Y %I:%M%P}", "color":"\#ebdbb2"}
+]
