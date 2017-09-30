@@ -1,0 +1,10 @@
+{
+	"color_scheme": "Packages/User/Color Highlighter/themes/gruvbox (Dark) (Medium).tmTheme",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "gruvbox (Dark) (Medium).sublime-theme",
+	"update_check": false
+}

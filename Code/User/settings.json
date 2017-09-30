@@ -1,0 +1,28 @@
+{
+  "workbench.colorTheme": "Ayu Mirage",
+  "editor.renderIndentGuides": false,
+  "workbench.activityBar.visible": true,
+  "git.enableSmartCommit": true,
+  "terminal.integrated.shell.windows":
+    "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "workbench.iconTheme": "vscode-icons",
+
+  // Format a file on save. A formatter must be available, the file must not be auto-saved, and editor must not be shutting down.
+  "editor.formatOnSave": true,
+  // Enable/disable default JavaScript formatter (For Prettier)
+  "javascript.format.enable": false,
+  // Use 'prettier-eslint' instead of 'prettier'. Other settings will only be fallbacks in case they could not be inferred from eslint rules.
+  "prettier.eslintIntegration": true,
+  "files.autoSave": "afterDelay",
+  "sync.gist": "5e79545e5c09e2e273a363d3d9479ef9",
+  "sync.lastUpload": "",
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.lastDownload": "2017-09-28T20:53:45.335Z",
+  "sync.forceDownload": false,
+  "sync.anonymousGist": false,
+  "sync.host": "",
+  "sync.pathPrefix": "",
+  "sync.quietSync": false,
+  "sync.askGistName": false
+}

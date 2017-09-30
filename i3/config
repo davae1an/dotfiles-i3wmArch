@@ -1,0 +1,367 @@
+#	  '####::'#######::'##:::::'##:'##::::'##:
+#	  . ##::'##.... ##: ##:'##: ##: ###::'###:
+#	  : ##::..::::: ##: ##: ##: ##: ####'####:
+#	  : ##:::'#######:: ##: ##: ##: ## ### ##:
+#	  : ##:::...... ##: ##: ##: ##: ##. #: ##:
+#	  : ##::'##:::: ##: ##: ##: ##: ##:.:: ##:
+#	  '####:. #######::. ###. ###:: ##:::: ##:
+#	  ....:::.......::::...::...:::..:::::..::
+
+
+
+
+
+# i3 config file (v4)
+#xrdb ~/.Xresources
+#====MOD-KEY============================================================
+set $mod Mod1
+set $editor subl3
+
+#====COLOURS============================================================
+set $black       #212121
+set $darkblack   #000000
+set $red         #fb4934
+set $darkred     #cc241d
+set $green       #b8bb26
+set $darkgreen   #98971a
+set $yellow      #fabd2f
+set $darkyellow  #d79921
+set $darkblue    #458588
+set $magenta     #d3869b
+set $darkmagenta #b16286
+set $darkcyan    #689d6a
+set $darkwhite   #a89984
+
+
+#colors to look at for html file
+set $purple      #a58390
+set $smokyblack  #222222
+set $cyan        #8ec07c
+set $white       #ebdbb2
+set $blue        #83a598
+
+# Use custom colors for black
+set $black       #282828
+set $darkblack   #1d2021
+set $transparent #00000000
+
+
+
+#class                  border   backgr.  text
+client.focused          #B16286  #D3869B  #282828
+client.focused_inactive #191919 #191919 #999999
+client.unfocused        #191919 #191919 #999999
+client.urgent           #cd989a #cd989a #2e3436
+client.background       #121212
+
+
+#====FONTS==============================================================
+font pango:FontAwesome, Ubuntu 12
+
+#====GAPS Settings======================================================
+
+set $default_gaps_inner 10
+set $default_gaps_outer 3
+gaps inner $default_gaps_inner
+gaps outer $default_gaps_outer
+smart_gaps on
+
+#STICKY WINDOWS=========================================================
+bindsym $mod+Shift+s sticky toggle
+# put YouTube into fullscreen and execute this for media mode
+bindsym $mod+y fullscreen disable; floating enable; resize set 800 600; sticky enable; move window to position 2885 54
+
+#bottom right corner sticky window
+
+bindsym $mod+u fullscreen disable; floating enable; resize set 800 600; sticky enable; move window to position 2885 1500
+
+#new_window 0pixel no borderes
+for_window [class="^.*"] border pixel 1
+
+#====Startup Items======================================================
+
+#exec /usr/bin/gnome-settings-daemon
+exec_always --no-startup-id killall polybar; while pgrep -x polybar >/dev/null; do sleep 1; done; polybar top -c "/home/dark/.config/polybar/config" &
+exec --no-startup-id xset -b &
+exec --no-startup-id menutray -i -r &
+exec --no-startup-id compton -b &
+exec --no-startup-id nm-applet &
+#exec --no-startup-id volumeicon &
+exec --no-startup-id blueman-applet &
+exec --no-startup-id nitrogen --restore &
+exec --no-startup-id transmission-daemon &
+exec_always --no-startup-id parcellite &
+exec --no-startup-id sleep 5 && redshift-gtk &
+exec synclient TapButton1=1 TapButton2=3 TapButton3=2
+# refresh xresources for urxvt
+exec_always --no-startup-id xrdb ~/.Xresources
+exec xrandr --output HDMI1 --auto --left-of DP3 hdmi out
+#exec --no-startup-id blueberry-tray
+
+
+#exec --no-startup-id wicd-gtk -t
+#exec --no-startup-id nm-applet &
+#exec --no-startup-id sleep 3 && volumeicon
+#exec --no-startup-id sleep 3 && xfce4-power-manager
+#exec --no-startup-id volwheel 
+#exec --no-startup-id megasync
+#exec --no-srartup-id xclip
+
+
+#====Application Shortcuts
+
+bindsym $mod+i exec i3lock-fancy -p -- scrot -z
+bindsym $mod+space exec rofi -show run
+bindsym $mod+Return exec urxvt
+bindsym $mod+c exec chromium
+bindsym $mod+b exec chromium
+bindsym $mod+p exec pcmanfm
+bindsym $mod+t exec subl3
+
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+#====Vol Controls=======================================================
+
+
+#bindsym XF86AudioLowerVolume exec --no-startup-id $HOME/scripts/volume_control.py down 5
+#bindsym XF86AudioRaiseVolume exec --no-startup-id $HOME/scripts/volume_control.py up 5
+#bindsym XF86AudioMute exec --no-startup-id $HOME/scripts/volume_control.py toggle
+
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5%
+bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle
+
+# pause / play / next / previous
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+
+#====Brightness=========================================================
+
+# xBacklight
+bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight +5%
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -5%
+
+bindsym $mod+Shift+m exec --no-startup-id xbacklight +10%
+bindsym $mod+Shift+n exec --no-startup-id xbacklight -10%
+
+#Screenshots
+bindsym --release Print exec scrot -q 100 -d 5 $HOME/Pictures/screenshot-$(date +%Y-%m-%d-%T).png
+
+# kill focused window
+bindsym $mod+period kill
+
+# change focus
+bindsym $mod+j focus left
+bindsym $mod+k focus down
+bindsym $mod+l focus up
+bindsym $mod+semicolon focus right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+j move left
+bindsym $mod+Shift+k move down
+bindsym $mod+Shift+l move up
+bindsym $mod+Shift+semicolon move right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# split in horizontal orientation
+bindsym $mod+h split h
+
+# split in vertical orientation
+bindsym $mod+v split v
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+# toggle tiling / floating
+bindsym $mod+z floating toggle
+
+# change focus between tiling / floating windows
+bindsym $mod+x focus mode_toggle
+
+# focus the parent container
+bindsym $mod+a focus parent
+
+# focus the child container
+bindsym $mod+d focus child
+
+#===WORKSPACES==========================================================
+set $WS1 1:
+set $WS2 2:
+set $WS3 3:
+set $WS4 4:
+set $WS5 5:
+set $WS6 6:
+set $WS7 7:
+set $WS8 8:
+set $WS9 9:
+
+
+
+
+workspace_auto_back_and_forth yes
+
+# move using arrow keys to different workspaces
+bindsym $mod+Mod4+Right workspace next
+bindsym $mod+Mod4+Left workspace prev
+
+# switch to workspace
+bindsym $mod+1 workspace $WS1
+bindsym $mod+2 workspace $WS2
+bindsym $mod+3 workspace $WS3
+bindsym $mod+4 workspace $WS4
+bindsym $mod+5 workspace $WS5
+bindsym $mod+6 workspace $WS6
+bindsym $mod+7 workspace $WS7
+bindsym $mod+8 workspace $WS8
+bindsym $mod+9 workspace $WS9
+bindsym $mod+0 workspace 10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace $WS1
+bindsym $mod+Shift+2 move container to workspace $WS2
+bindsym $mod+Shift+3 move container to workspace $WS3
+bindsym $mod+Shift+4 move container to workspace $WS4
+bindsym $mod+Shift+5 move container to workspace $WS5
+bindsym $mod+Shift+6 move container to workspace $WS6
+bindsym $mod+Shift+7 move container to workspace $WS7
+bindsym $mod+Shift+8 move container to workspace $WS8
+bindsym $mod+Shift+9 move container to workspace $WS9
+bindsym $mod+Shift+0 move container to workspace 10
+
+
+#Floating
+for_window [class="Oblogout"] floating enable
+for_window [class="Lxappearance"] floating enable
+for_window [class="Nitrogen"] floating enable
+for_window [class="Blueberry.py"] floating enable
+for_window [class="Blueman-manager"] floating enable
+
+
+# assign applications to each desktop   ()
+
+assign [class="Chromium"] $WS1
+for_window [class="Chromium"] focus
+
+assign [class="Subl3"] $WS3
+for_window [class="Subl3"] focus
+
+
+assign [class="jetbrains-webstorm"] $WS2
+for_window [class="jetbrains-webstorm"] focus
+
+assign [class="Atom"] $WS2
+for_window [class="Atom"] focus
+
+assign [class="Vmware"] $WS5
+for_window [class="Vmware"] focus
+
+assign [class="Transmission"] $WS7
+for_window [class="Transmission"] focus
+
+assign [class="Pcmanfm"] $WS8
+for_window [class="Pcmanfm"] focus
+
+
+for_window [urgent="latest" class="Atom"] focus
+for_window [urgent="latest" class="Chromium"] focus
+for_window [urgent="latest" class="Subl3"] focus
+for_window [urgent="latest" class="Pcmanfm"] focus
+for_window [urgent="latest" class="Transmission"] focus
+for_window [urgent="latest" class="jetbrains-webstorm"] focus
+
+
+
+
+
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your #X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+#bindsym $mod+Shift+e exec --no-startup-id oblogout
+
+
+
+
+# resize window (you can also use the mouse for that)
+mode "resize" {
+        # These bindings trigger as soon as you enter the resize mode
+
+        # Pressing left will shrink the window’s width.
+        # Pressing right will grow the window’s width.
+        # Pressing up will shrink the window’s height.
+        # Pressing down will grow the window’s height.
+        bindsym j resize shrink width 10 px or 10 ppt
+        bindsym k resize grow height 10 px or 10 ppt
+        bindsym l resize shrink height 10 px or 10 ppt
+        bindsym semicolon resize grow width 10 px or 10 ppt
+
+        # same bindings, but for the arrow keys
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        # back to normal: Enter or Escape
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+bindsym $mod+r mode "resize"
+
+#========BAR Settings=============
+#bar {
+
+#      status_command polybar Bar
+      #tray_output primary
+#      strip_workspace_numbers yes
+
+#      position bottom
+#      mode invisible
+#      font pango: Inconsolata 12, Ubuntu 12
+
+        
+
+
+#   colors {
+#        statusline         $white
+#        background         #282828
+#        separator          #282828
+
+#                          BORDER       BACKGROUND   TEXT
+#        focused_workspace  $transparent $transparent $blue
+#        inactive_workspace #282828      #282828      $white
+#        active_workspace   #282828      #282828      $white
+#        urgent_workspace   $white       $darkblue    $transparent
+#        binding_mode       $cyan        $cyan        #282828
+
+
+
+
+
+#    }
+#}

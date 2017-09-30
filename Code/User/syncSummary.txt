@@ -1,0 +1,63 @@
+VISUAL STUDIO CODE SETTINGS SYNC 
+Version: 2.8.3
+
+Download Summary
+
+--------------------
+GITHUB TOKEN: Anonymous
+GITHUB GIST: 5e79545e5c09e2e273a363d3d9479ef9
+GITHUB GIST TYPE: Secret
+
+--------------------
+
+Anonymous Gist Cant be edited, extension will always create new one during upload.
+
+If current theme / file icon extension is not installed. Restart will be Required to Apply Theme and File Icon.
+
+
+Files Download.
+
+extensions.json
+keybindings.json
+settings.json
+vsicons.settings.json
+
+EXTENSIONS REMOVED :
+
+No Extension needs to be removed.
+
+
+EXTENSIONS ADDED :
+
+hopscotch - Version :0.2.0
+auto-rename-tag - Version :0.0.14
+one-monokai - Version :0.3.4
+base16-themes - Version :1.3.2
+easy-icons - Version :0.3.1
+path-intellisense - Version :1.4.2
+output-colorizer - Version :0.1.2
+FlatUI - Version :1.4.2
+vscode-babel-coloring - Version :0.0.4
+auto-close-tag - Version :0.5.0
+react-native-react-redux - Version :1.4.0
+EditorConfig - Version :0.10.1
+theme-monokai-dark-soda - Version :0.0.5
+color-highlight - Version :2.3.0
+rainbow-brackets - Version :0.0.6
+theme-onedark-sublime - Version :0.3.6
+project-manager - Version :0.21.1
+npm-intellisense - Version :1.3.0
+vscode-eslint - Version :1.3.2
+vscode-great-icons - Version :2.1.16
+ayu - Version :0.8.0
+theme-panda - Version :1.1.0
+react-redux-es6-snippets - Version :2.1.0
+PowerShell - Version :1.4.3
+debugger-for-chrome - Version :3.3.1
+guides - Version :0.8.4
+nord-visual-studio-code - Version :0.5.0
+file-icons - Version :1.0.5
+vscode-wakatime - Version :1.1.16
+vscode-icons - Version :7.14.0
+vscode-exports-autocomplete - Version :0.5.1
+prettier-vscode - Version :0.23.1

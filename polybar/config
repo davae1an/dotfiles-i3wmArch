@@ -1,0 +1,403 @@
+;       ██████   ██████  ██   ██    ██ ██████   █████  ██████
+;       ██   ██ ██    ██ ██    ██  ██  ██   ██ ██   ██ ██   ██
+;       ██████  ██    ██ ██     ████   ██████  ███████ ██████
+;       ██      ██    ██ ██      ██    ██   ██ ██   ██ ██   ██
+;       ██       ██████  ███████ ██    ██████  ██   ██ ██   ██
+
+
+
+
+[global/wm]
+margin-top = 5
+margin-bottom = 5
+
+
+[colors]
+white = #d1d1d1
+gray = #585858
+black = #090909
+red = #e82b09
+blue = #95aec7
+yellow = #c7ae95
+green = #aec795
+
+[gruvbox]
+darkred = #cc221c
+lightred = #fc4934
+darkgreen = #99961a
+lightgreen = #b9ba28
+darkyellow = #d89823
+lightyellow = #fabd30
+darkblue = #468487
+lightblue = #81a296
+darkpurple = #b26288
+lightpurple = #d4859b
+darkaqua = #689b69
+lightaqua = #8fbf7c
+cream = #ebdab3
+darkorange = #d75c0f
+lightorange = #ff7f1b
+black = #282828
+
+transparent = #00ffffff
+
+[bar/top]
+bottom = false
+override-redirect = false
+width = 100%
+height = 40
+dpi = 192
+
+enable-ipc = true
+;locale = en_US.UTF-8
+padding-left = 0
+padding-right = 0
+
+module-margin-right = 0
+module-margin-left = 0
+
+modules-right = temperature cpu memory backlight volume battery date
+modules-center =  i3 
+modules-left = wlan vpncheck
+
+background = #282828
+foreground = #ebdbb2
+
+underline-size = 2
+underline-color = #282828
+ tray-maxsize = 1000
+tray-position = right
+tray-padding = 2
+tray-background = #282828
+tray-transparent = false
+
+font-0 = Ubuntu:size=10;2
+font-1 = FontAwesome:size=10;2
+font-2 = TakaoGothic:weight=bold:size=10;0
+font-3 = PowerlineSymbols:size=10;0
+
+
+[module/title]
+type = internal/xwindow
+label = %title%
+label-maxlen = 60
+
+[module/vpncheck]
+type = custom/script
+exec = pgrep openvpn
+interval = 5
+label = vpn
+format-underline = 
+format-prefix = " "
+format-prefix-foreground = #ebdbb2
+
+[module/filesystem]
+type = internal/fs
+interval = 25
+
+mount-0 = /
+;mount-1 = /home
+;mount-2 = /invalid/mountpoint
+
+label-mounted =  %free%
+label-mounted-underline = 
+label-mounted-padding = 1
+
+label-unmounted =
+label-unmounted-foreground = ${colors.black}
+
+[module/i3]
+type = internal/i3
+
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
+ws-icon-4 = 5;
+ws-icon-5 = 6;
+ws-icon-6 = 7;
+ws-icon-7 = 8;
+ws-icon-8 = 9;
+
+
+format =  <label-state> <label-mode> 
+strip-wsnumbers = true
+index-sort = true
+
+label-mode = %mode% 
+label-mode-padding = 0
+label-mode-background = #e60053
+
+label-focused =  %name% %icon%
+label-focused-foreground = ${gruvbox.lightpurple}
+label-focused-background = #282828
+label-focused-underline = #282828
+label-focused-padding = 1
+
+
+label-unfocused = %name% %icon%
+label-unfocused-padding = 1
+
+label-visible = %name% %icon%
+label-visible-underline = #555555
+label-visible-padding = 1
+
+label-urgent = %name% %icon%
+label-urgent-foreground = #000000
+label-urgent-background = #bd2c40
+label-urgent-padding = 1
+
+
+[module/backlight]
+type = internal/xbacklight
+card = intel_backlight
+format = <label>  
+label =  %percentage%
+label-foreground = ${gruvbox.darkyellow}
+label-padding = 2
+padding = 5
+interval = 1
+
+bar-width = 15
+bar-indicator = |
+bar-indicator-foreground = #ff
+bar-indicator-font = 2
+bar-fill = 
+bar-fill-font = 2
+bar-fill-foreground = #F8ED1F
+bar-empty = 
+bar-empty-font = 2
+bar-empty-foreground = #ebdbb2
+
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+label =   %percentage% % 
+label-underline = 
+label-foreground = ${gruvbox.lightblue}
+
+format-label = internal/cpu
+
+format = <label>
+
+
+format-background = #282828
+format-foreground =
+format-underline = #55
+format-padding = 2
+;
+
+
+bar-load-width = 10
+bar-load-foreground-0 = #aaff77
+bar-load-foreground-1 = #aaff77
+bar-load-foreground-2 = #fba922
+bar-load-foreground-3 = #ff5555
+bar-load-indicator = 
+bar-load-indicator-font = 4
+bar-load-indicator-foreground = #ffffff
+bar-load-fill = \\
+bar-load-fill-font = 2
+bar-load-empty = \\
+bar-load-empty-font = 2
+;
+
+
+[module/memory]
+type = internal/memory
+interval = 2
+
+
+format = <label>
+format-background = #282828
+format-foreground =
+format-underline = #55
+format-padding = 2
+
+label =  %gb_used%/%gb_total%
+label-underline = #55
+label-foreground = ${gruvbox.lightgreen}
+
+
+bar-used-width = 10
+bar-used-foreground-0 = #aaff77
+bar-used-foreground-1 = #aaff77
+bar-used-foreground-2 = #fba922
+bar-used-foreground-3 = #ff5555
+bar-used-indicator = 
+bar-used-indicator-font = 4
+bar-used-indicator-foreground = #ffffff
+bar-used-fill = \\
+bar-used-fill-font = 2
+bar-used-empty = \\
+bar-used-empty-font = 2
+bar-used-empty-foreground = #ebdbb2
+
+
+
+[module/wlan]
+type = internal/network
+interface = wlp2s0
+interval = 1.0
+
+format-connected-padding = 1
+format-disconnected-padding = 1
+
+format-connected = <ramp-signal> <label-connected> 
+format-connected-foreground = #ebdbb2
+format-disconnected-underline = ${gruvbox.lightred}
+
+label-connected = %signal% % %essid% (%local_ip%)
+label-disconnected =  Wifi Here is Shit
+label-disconnected-foreground = ${colors.white}
+
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-1-foreground = ${gruvbox.cream}
+ramp-signal-2 = 
+ramp-signal-2-foreground = ${gruvbox.lightorange}
+ramp-signal-3 = 
+ramp-signal-3-foreground =${gruvbox.lightyellow}
+ramp-signal-4 = 
+ramp-signal-4-foreground = ${gruvbox.lightred}
+
+
+
+[module/date]
+type = internal/date
+date-alt =   %b/%d/%y %A %H:%M
+date =  %I:%M %p
+interval = 5
+format-underline = 
+;format-background =
+format-foreground = 
+format-padding = 1
+
+
+[module/volume]
+type = internal/volume
+interval = 1
+format-volume = <label-volume>
+format-volume-padding = 2
+label-volume =  %percentage%
+label-volume-foreground = ${root.foreground}
+label-muted =   Muted
+label-muted-foreground = ${colors.white}
+label-muted-underline = #ee512d
+label-muted-padding = 2
+
+bar-volume-width = 20
+bar-volume-foreground-0 = #aaff77
+bar-volume-foreground-1 = #aaff77
+bar-volume-foreground-2 = #aaff77
+bar-volume-foreground-3 = #aaff77
+bar-volume-foreground-4 = #aaff77
+bar-volume-foreground-5 = #aaff77
+bar-volume-gradient = false
+bar-volume-indicator = 
+bar-volume-indicator-font = 2
+bar-volume-indicator-foreground = ${colors.white}
+bar-volume-fill = -
+bar-volume-fill-font = 1
+bar-volume-empty = -
+bar-volume-empty-font = 1 
+bar-volume-empty-foreground = ${colors.gray}
+;─
+
+[module/battery]
+type = internal/battery
+battery = BAT0
+adapter = ADP1
+full-at = 99
+poll-interval = 2
+
+time-format = %H:%M
+
+
+
+format-charging = <animation-charging> <label-charging>
+format-charging-underline = 
+format-charging-padding = 1
+
+label-discharging = %percentage%%  %time% 
+format-discharging = <ramp-capacity> <label-discharging>
+format-discharging-underline = 
+format-discharging-padding = 1
+
+format-full =    <label-full>
+format-full-underline = ${self.format-charging-underline}
+format-full-overline = ${self.format-charging-underline}
+format-full-padding = 1
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+ramp-capacity-0-foreground = #fb4934
+ramp-capacity-1-foreground = #fb4934
+ramp-capacity-2-foreground = #F8ED1F
+ramp-capacity-3-foreground = #689d6a
+ramp-capacity-4-foreground = #689d6a
+
+
+animation-charging-0 =  
+animation-charging-1 =  
+animation-charging-2 =  
+animation-charging-3 =  
+animation-charging-4 =  
+animation-charging-foreground = #aaff77
+animation-charging-framerate = 750ff
+
+
+[module/temperature]
+type = internal/temperature
+thermal-zone = 1
+warn-temperature = 68
+
+
+label = %temperature%
+label-warn =  %temperature%
+
+
+format = <ramp> <label>
+format-underline = 
+format-warn = <label-warn>
+format-warn-underline = ${gruvbox.lightred}
+
+format-padding = 1
+format-warn-padidng = 1
+
+ramp-0 = 
+ramp-0-foreground = ${gruvbox.lightgreen}
+ramp-1 = 
+ramp-1-foreground = ${gruvbox.lightyellow}
+ramp-2 = 
+ramp-foreground = ${gruvbox.lightred}
+
+
+[module/menu0]
+type = custom/menu
+
+format = <label-toggle> <menu>
+format-underline = 
+format-padding = 1
+
+menu-0-0 =  shutdown
+menu-0-0-exec = shutdown now
+menu-0-1 =  restart
+menu-0-1-exec = shutdown -r now
+menu-0-2 =   cancel
+
+
+label-open =  
+label-close =
+
+[module/updates]
+type = custom/script
+
+exec = echo
+
+

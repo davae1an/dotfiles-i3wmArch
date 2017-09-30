@@ -1,0 +1,32 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"ApplySyntax",
+		"Babel",
+		"Babel Snippets",
+		"Color Highlighter",
+		"ColorPicker",
+		"Emmet",
+		"gruvbox",
+		"HTML-CSS-JS Prettify",
+		"Material Theme",
+		"Package Control",
+		"Seti_UI",
+		"Seti_UX",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-tslint",
+		"Terminal",
+		"Themr",
+		"TypeScript",
+		"Vue Syntax Highlight",
+		"Vuejs Complete Package"
+	]
+}
