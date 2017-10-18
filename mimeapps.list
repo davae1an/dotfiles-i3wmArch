@@ -1,0 +1,18 @@
+[Default Applications]
+text/plain=sublime_text_3.desktop
+video/x-matroska=mpv.desktop
+video/mp4=mpv.desktop
+
+[Added Associations]
+text/plain=sublime_text_3.desktop;org.gnome.gedit.desktop;
+video/x-matroska=mpv.desktop;
+application/zip=org.gnome.FileRoller.desktop;
+application/pdf=chromium.desktop;
+application/json=org.gnome.Builder.desktop;
+image/jpeg=eog.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=org.gnome.FileRoller.desktop;
+image/png=eog.desktop;
+audio/mpeg=mpv.desktop;
+video/mp4=mpv.desktop;org.gnome.Totem.desktop;
+application/x-bittorrent=transmission-gtk.desktop;
+text/html=chromium.desktop;

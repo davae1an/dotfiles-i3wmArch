@@ -1,9 +1,15 @@
 {
 	"folder_history":
 	[
+		"/home/dark/Documents/Dev/Python",
+		"/home/dark/Documents/Dev/Koajs",
 		"/home/dark/.config/i3",
-		"/home/dark/Documents/Thermoelectric-Cooler-Panel/front-end",
 		"/home/dark/.config/polybar",
+		"/home/dark/Documents/Dev/redux",
+		"/home/dark/Documents/Dev",
+		"/home/dark/Documents/Dev/feathers-docs",
+		"/home/dark/Documents/Dev/feathers-docs/examples",
+		"/home/dark/Documents/Dev/feathers-docs/examples/step/01",
 		"/home/dark/Documents/git/dotfiles-i3wmArch",
 		"/home/dark/Documents/react/ReduxSimpleStarter-master",
 		"/home/dark/Documents/Website",
@@ -24,7 +30,7 @@
 		"/home/dark/Documents/vueprojects"
 	],
 	"last_version": 3143,
-	"last_window_id": 42,
+	"last_window_id": 54,
 	"log_indexing": false,
 	"settings":
 	{
@@ -35,6 +41,14 @@
 			{
 				"selected_items":
 				[
+					[
+						"COLO",
+						"COLOR_BGR2HSV\tinstance"
+					],
+					[
+						"COLOR_BRG",
+						"COLOR_BGR2HLS\tinstance"
+					],
 					[
 						"li",
 						"lightorange"
@@ -275,13 +289,21 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 899.0,
-				"last_filter": "the",
+				"height": 883.0,
+				"last_filter": "th",
 				"selected_items":
 				[
 					[
-						"the",
+						"th",
 						"Themr: List themes"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"anacon",
+						"Anaconda: Autoformat PEP8 Errors"
 					],
 					[
 						"Package Control: ",
@@ -320,10 +342,6 @@
 						"Material Theme: Configuration"
 					],
 					[
-						"insta",
-						"Package Control: Install Package"
-					],
-					[
 						" insta",
 						"Package Control: Install Package"
 					],
@@ -336,11 +354,11 @@
 						"Install Package Control"
 					]
 				],
-				"width": 1066.0
+				"width": 1102.0
 			},
 			"console":
 			{
-				"height": 216.0,
+				"height": 957.0,
 				"history":
 				[
 					"ls",
@@ -361,13 +379,37 @@
 			},
 			"file_history":
 			[
-				"/home/dark/Documents/Thermoelectric-Cooler-Panel/front-end/client/stores/Livedata.js",
+				"/home/dark/Documents/Dev/Koajs/koa-playground/.gitignore",
+				"/home/dark/Documents/Dev/Koajs/koa2-api-boilerplate/README.md",
+				"/home/dark/Documents/Dev/Koajs/koa-playground/src/modules/user/user_routes.js",
+				"/home/dark/Documents/stuffnew",
+				"/run/media/dark/BCCA0E5ECA0E1574/newwifi.txt",
+				"/home/dark/Documents/Dev/Python/mastering/images/Trump.jpg",
+				"/home/dark/Documents/Dev/Python/video.py",
+				"/home/dark/Documents/Dev/React-Redux/.eslintrc",
+				"/home/dark/Documents/Dev/Python/showimg.py",
+				"/home/dark/Documents/Dev/Python/line.py",
+				"/tmp/yaourt-tmp-dark/aur-opencv-gstreamer/PKGBUILD",
+				"/home/dark/Documents/Dev/Python/messigray.jpg",
+				"/home/dark/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+				"/home/dark/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
 				"/home/dark/.config/i3/config",
-				"/home/dark/.Xresources",
 				"/home/dark/.config/polybar/config",
-				"/home/dark/Documents/AWUS1900_Linux_v4.3.21_17997.20160531/readme.txt",
-				"/home/dark/Documents/rtl8812au/README.md",
-				"/home/dark/Documents/git/dotfiles-i3wmArch/.i3/config",
+				"/home/dark/Documents/Dev/redux/examples/async/src/actions/index.js",
+				"/home/dark/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+				"/home/dark/Documents/Dev/redux/src/combineReducers.js",
+				"/home/dark/.Xresources",
+				"/home/dark/Documents/rtl8812au/core/rtw_beamforming.c",
+				"/run/media/dark/TOSHIBA EXT/newwifi.txt",
+				"/home/dark/.zshrc",
+				"/home/dark/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/dark/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/dark/Documents/Dev/feathers-docs/examples/offline/package.json",
+				"/home/dark/Documents/Dev/feathers-docs/examples/step/01/db-connector/1.js",
+				"/home/dark/Documents/Dev/feathers-docs/examples/step/01/node_modules/feathers-authentication-local/example/app.js",
+				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/containers/book-detail.js",
+				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/reducers/reducer_books.js",
+				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/containers/book-list.js",
 				"/home/dark/Documents/git/dotfiles-i3wmArch/.git/index",
 				"/home/dark/Documents/git/dotfiles-i3wmArch/.git/config",
 				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/components/app.js",
@@ -377,13 +419,10 @@
 				"/home/dark/Documents/test.css",
 				"/home/dark/Downloads/Studio Glibli Movies/Torrent downloaded from Demonoid.com.txt",
 				"/home/dark/Documents/vmnet-only/userif.c",
-				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/reducers/reducer_books.js",
-				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/containers/book-list.js",
 				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/components/book_list.js",
 				"/home/dark/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
 				"/run/media/dark/TOSHIBA EXT/arch/Documents/wifi.txt",
 				"/home/dark/Documents/shared/vpm.txt",
-				"/home/dark/.zshrc",
 				"/home/dark/.oh-my-zsh/custom/themes/powerlevel9k/functions/colors.zsh",
 				"/home/dark/.oh-my-zsh/custom/themes/powerlevel9k/powerlevel9k.zsh-theme",
 				"/boot/loader/loader.conf",
@@ -467,36 +506,15 @@
 				"/home/dark/.weechat/weechat.conf",
 				"/home/dark/.weechat/relay.conf",
 				"/home/dark/.config/termite/config",
-				"/home/dark/Documents/marvette.hall@utech.edu.jm",
-				"/home/dark/Documents/moduli3.css",
-				"/home/dark/Documents/wifi.txt",
-				"/run/media/dark/TOSHIBA EXT/Davae/Text Folder/wifi.txt",
-				"/run/media/dark/TOSHIBA EXT/Davae/Dropbox/Davae Stuff/desktop.ini",
-				"/run/media/dark/TOSHIBA EXT/Davae/Text Folder/WifiUtech.txt",
-				"/run/media/dark/TOSHIBA EXT/Davae/Text Folder/test/wpss",
-				"/run/media/dark/TOSHIBA EXT/Davae/Text Folder/commands.txt",
-				"/run/media/dark/TOSHIBA EXT/Davae/Dropbox/Text Files and Other Random Files/dos wifi.txt",
-				"/home/dark/Documents/Angular2/Clockt/src/app/map/map.component.spec.ts",
-				"/home/dark/Documents/Angular2/Clockt/src/app/map/map.component.ts",
-				"/home/dark/.mongorc.js",
-				"/home/dark/Documents/Angular2/Clockt/src/app/map/map.component.css",
-				"/home/dark/Documents/Angular2/Clockt/src/app/app.component.html",
-				"/home/dark/Documents/Angular2/Clockt/src/app/map/map.component.html",
-				"/home/dark/Documents/Angular2/Clockt/src/index.html",
-				"/home/dark/Documents/Angular2/Clockt/src/app/navbar/navbar.component.html",
-				"/home/dark/Documents/Angular2/recipe-book/src/app/header.component.html",
-				"/home/dark/Documents/Angular2/recipe-book/src/app/shopping-list/shopping-list-add.component.ts",
-				"/home/dark/Documents/Angular2/recipe-book/README.md",
-				"/home/dark/.config/sublime-text-3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
-				"/home/dark/Documents/8653251618 Jana"
+				"/home/dark/Documents/marvette.hall@utech.edu.jm"
 			],
 			"find":
 			{
-				"height": 70.0
+				"height": 63.0
 			},
 			"find_in_files":
 			{
-				"height": 192.0,
+				"height": 1431.0,
 				"where_history":
 				[
 				]
@@ -522,11 +540,11 @@
 			},
 			"incremental_find":
 			{
-				"height": 70.0
+				"height": 63.0
 			},
 			"input":
 			{
-				"height": 70.0
+				"height": 483.0
 			},
 			"menu_visible": true,
 			"output.doc":
@@ -535,7 +553,7 @@
 			},
 			"output.exec":
 			{
-				"height": 32.0
+				"height": 133.0
 			},
 			"output.find_results":
 			{
@@ -548,7 +566,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 131.0
+				"height": 117.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -582,7 +600,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 376.0,
+			"side_bar_width": 530.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
@@ -597,6 +615,14 @@
 			{
 				"selected_items":
 				[
+					[
+						"COLO",
+						"COLOR_BGR2HSV\tinstance"
+					],
+					[
+						"COLOR_BRG",
+						"COLOR_BGR2HLS\tinstance"
+					],
 					[
 						"li",
 						"lightorange"
@@ -833,15 +859,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/dark/.config/i3/config",
-					"settings":
-					{
-						"buffer_size": 10749,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -850,13 +867,21 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 899.0,
-				"last_filter": "the",
+				"height": 883.0,
+				"last_filter": "th",
 				"selected_items":
 				[
 					[
-						"the",
+						"th",
 						"Themr: List themes"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"anacon",
+						"Anaconda: Autoformat PEP8 Errors"
 					],
 					[
 						"Package Control: ",
@@ -895,10 +920,6 @@
 						"Material Theme: Configuration"
 					],
 					[
-						"insta",
-						"Package Control: Install Package"
-					],
-					[
 						" insta",
 						"Package Control: Install Package"
 					],
@@ -911,11 +932,11 @@
 						"Install Package Control"
 					]
 				],
-				"width": 1066.0
+				"width": 1102.0
 			},
 			"console":
 			{
-				"height": 216.0,
+				"height": 957.0,
 				"history":
 				[
 					"ls",
@@ -934,20 +955,39 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
-			"expanded_folders":
-			[
-				"/home/dark/.config/i3"
-			],
 			"file_history":
 			[
-				"/home/dark/.config/i3/i3status.conf",
-				"/home/dark/Documents/Thermoelectric-Cooler-Panel/front-end/client/stores/Livedata.js",
+				"/home/dark/Documents/Dev/Koajs/koa-playground/.gitignore",
+				"/home/dark/Documents/Dev/Koajs/koa2-api-boilerplate/README.md",
+				"/home/dark/Documents/Dev/Koajs/koa-playground/src/modules/user/user_routes.js",
+				"/home/dark/Documents/stuffnew",
+				"/run/media/dark/BCCA0E5ECA0E1574/newwifi.txt",
+				"/home/dark/Documents/Dev/Python/mastering/images/Trump.jpg",
+				"/home/dark/Documents/Dev/Python/video.py",
+				"/home/dark/Documents/Dev/React-Redux/.eslintrc",
+				"/home/dark/Documents/Dev/Python/showimg.py",
+				"/home/dark/Documents/Dev/Python/line.py",
+				"/tmp/yaourt-tmp-dark/aur-opencv-gstreamer/PKGBUILD",
+				"/home/dark/Documents/Dev/Python/messigray.jpg",
+				"/home/dark/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+				"/home/dark/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
 				"/home/dark/.config/i3/config",
-				"/home/dark/.Xresources",
 				"/home/dark/.config/polybar/config",
-				"/home/dark/Documents/AWUS1900_Linux_v4.3.21_17997.20160531/readme.txt",
-				"/home/dark/Documents/rtl8812au/README.md",
-				"/home/dark/Documents/git/dotfiles-i3wmArch/.i3/config",
+				"/home/dark/Documents/Dev/redux/examples/async/src/actions/index.js",
+				"/home/dark/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+				"/home/dark/Documents/Dev/redux/src/combineReducers.js",
+				"/home/dark/.Xresources",
+				"/home/dark/Documents/rtl8812au/core/rtw_beamforming.c",
+				"/run/media/dark/TOSHIBA EXT/newwifi.txt",
+				"/home/dark/.zshrc",
+				"/home/dark/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/dark/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/dark/Documents/Dev/feathers-docs/examples/offline/package.json",
+				"/home/dark/Documents/Dev/feathers-docs/examples/step/01/db-connector/1.js",
+				"/home/dark/Documents/Dev/feathers-docs/examples/step/01/node_modules/feathers-authentication-local/example/app.js",
+				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/containers/book-detail.js",
+				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/reducers/reducer_books.js",
+				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/containers/book-list.js",
 				"/home/dark/Documents/git/dotfiles-i3wmArch/.git/index",
 				"/home/dark/Documents/git/dotfiles-i3wmArch/.git/config",
 				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/components/app.js",
@@ -957,13 +997,10 @@
 				"/home/dark/Documents/test.css",
 				"/home/dark/Downloads/Studio Glibli Movies/Torrent downloaded from Demonoid.com.txt",
 				"/home/dark/Documents/vmnet-only/userif.c",
-				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/reducers/reducer_books.js",
-				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/containers/book-list.js",
 				"/home/dark/Documents/react/ReduxSimpleStarter-master/src/components/book_list.js",
 				"/home/dark/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
 				"/run/media/dark/TOSHIBA EXT/arch/Documents/wifi.txt",
 				"/home/dark/Documents/shared/vpm.txt",
-				"/home/dark/.zshrc",
 				"/home/dark/.oh-my-zsh/custom/themes/powerlevel9k/functions/colors.zsh",
 				"/home/dark/.oh-my-zsh/custom/themes/powerlevel9k/powerlevel9k.zsh-theme",
 				"/boot/loader/loader.conf",
@@ -1047,35 +1084,15 @@
 				"/home/dark/.weechat/weechat.conf",
 				"/home/dark/.weechat/relay.conf",
 				"/home/dark/.config/termite/config",
-				"/home/dark/Documents/marvette.hall@utech.edu.jm",
-				"/home/dark/Documents/moduli3.css",
-				"/home/dark/Documents/wifi.txt",
-				"/run/media/dark/TOSHIBA EXT/Davae/Text Folder/wifi.txt",
-				"/run/media/dark/TOSHIBA EXT/Davae/Dropbox/Davae Stuff/desktop.ini",
-				"/run/media/dark/TOSHIBA EXT/Davae/Text Folder/WifiUtech.txt",
-				"/run/media/dark/TOSHIBA EXT/Davae/Text Folder/test/wpss",
-				"/run/media/dark/TOSHIBA EXT/Davae/Text Folder/commands.txt",
-				"/run/media/dark/TOSHIBA EXT/Davae/Dropbox/Text Files and Other Random Files/dos wifi.txt",
-				"/home/dark/Documents/Angular2/Clockt/src/app/map/map.component.spec.ts",
-				"/home/dark/Documents/Angular2/Clockt/src/app/map/map.component.ts",
-				"/home/dark/.mongorc.js",
-				"/home/dark/Documents/Angular2/Clockt/src/app/map/map.component.css",
-				"/home/dark/Documents/Angular2/Clockt/src/app/app.component.html",
-				"/home/dark/Documents/Angular2/Clockt/src/app/map/map.component.html",
-				"/home/dark/Documents/Angular2/Clockt/src/index.html",
-				"/home/dark/Documents/Angular2/Clockt/src/app/navbar/navbar.component.html",
-				"/home/dark/Documents/Angular2/recipe-book/src/app/header.component.html",
-				"/home/dark/Documents/Angular2/recipe-book/src/app/shopping-list/shopping-list-add.component.ts",
-				"/home/dark/Documents/Angular2/recipe-book/README.md",
-				"/home/dark/.config/sublime-text-3/Packages/Color Highlighter/ColorHighlighter.sublime-settings"
+				"/home/dark/Documents/marvette.hall@utech.edu.jm"
 			],
 			"find":
 			{
-				"height": 70.0
+				"height": 63.0
 			},
 			"find_in_files":
 			{
-				"height": 192.0,
+				"height": 1431.0,
 				"where_history":
 				[
 				]
@@ -1099,59 +1116,21 @@
 				"whole_word": false,
 				"wrap": true
 			},
-			"folders":
-			[
-				{
-					"path": "/home/dark/.config/i3"
-				}
-			],
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/dark/.config/i3/config",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 10749,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										2722,
-										2722
-									]
-								],
-								"settings":
-								{
-									"apply_syntax_touched": true,
-									"syntax": "Packages/CSS/CSS.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 3432.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 70.0
+				"height": 63.0
 			},
 			"input":
 			{
-				"height": 70.0
+				"height": 483.0
 			},
 			"layout":
 			{
@@ -1182,7 +1161,7 @@
 			},
 			"output.exec":
 			{
-				"height": 32.0
+				"height": 133.0
 			},
 			"output.find_results":
 			{
@@ -1197,7 +1176,7 @@
 			"project": "",
 			"replace":
 			{
-				"height": 131.0
+				"height": 117.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -1235,12 +1214,12 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 376.0,
+			"side_bar_width": 530.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 42,
+			"window_id": 53,
 			"workspace_name": ""
 		}
 	],

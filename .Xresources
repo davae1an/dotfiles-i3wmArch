@@ -5,7 +5,7 @@ Xft.rgba: rgb
 Xft.autohint: false
 Xft.hintstyle: hintfull
 Xft.lcdfilter: lcddefault
-
+Xcursor.size: 48
 ! rofi
 rofi.modi: run
 rofi.font: Hack 30
@@ -54,6 +54,7 @@ rofi.fuzzy: false
 URxvt.scrollBar: false  
 
 URxvt*font:  xft:Hack:pixelsize=34
+
 
 URxvt.transparent: false
 

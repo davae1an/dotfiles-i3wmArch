@@ -71,7 +71,7 @@ tray-padding = 2
 tray-background = #282828
 tray-transparent = false
 
-font-0 = Ubuntu:size=10;2
+font-0 = Hack:size=10;2
 font-1 = FontAwesome:size=10;2
 font-2 = TakaoGothic:weight=bold:size=10;0
 font-3 = PowerlineSymbols:size=10;0
@@ -115,7 +115,7 @@ ws-icon-2 = 3;
 ws-icon-3 = 4;
 ws-icon-4 = 5;
 ws-icon-5 = 6;
-ws-icon-6 = 7;
+ws-icon-6 = 7;
 ws-icon-7 = 8;
 ws-icon-8 = 9;
 
@@ -128,7 +128,7 @@ label-mode = %mode%
 label-mode-padding = 0
 label-mode-background = #e60053
 
-label-focused =  %name% %icon%
+label-focused = %name% %icon%
 label-focused-foreground = ${gruvbox.lightpurple}
 label-focused-background = #282828
 label-focused-underline = #282828
@@ -155,7 +155,7 @@ format = <label>
 label =  %percentage%
 label-foreground = ${gruvbox.darkyellow}
 label-padding = 2
-padding = 5
+padding = 2
 interval = 1
 
 bar-width = 15
@@ -173,7 +173,7 @@ bar-empty-foreground = #ebdbb2
 [module/cpu]
 type = internal/cpu
 interval = 2
-label =   %percentage% % 
+label =  %percentage% % 
 label-underline = 
 label-foreground = ${gruvbox.lightblue}
 
@@ -186,7 +186,7 @@ format-background = #282828
 format-foreground =
 format-underline = #55
 format-padding = 2
-;
+; 
 
 
 bar-load-width = 10
@@ -215,7 +215,7 @@ format-foreground =
 format-underline = #55
 format-padding = 2
 
-label =  %gb_used%/%gb_total%
+label =  %gb_used%/%gb_total%
 label-underline = #55
 label-foreground = ${gruvbox.lightgreen}
 
@@ -249,7 +249,7 @@ format-connected-foreground = #ebdbb2
 format-disconnected-underline = ${gruvbox.lightred}
 
 label-connected = %signal% % %essid% (%local_ip%)
-label-disconnected =  Wifi Here is Shit
+label-disconnected =  Nofi
 label-disconnected-foreground = ${colors.white}
 
 

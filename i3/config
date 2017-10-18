@@ -1,11 +1,11 @@
-#	  '####::'#######::'##:::::'##:'##::::'##:
-#	  . ##::'##.... ##: ##:'##: ##: ###::'###:
-#	  : ##::..::::: ##: ##: ##: ##: ####'####:
-#	  : ##:::'#######:: ##: ##: ##: ## ### ##:
-#	  : ##:::...... ##: ##: ##: ##: ##. #: ##:
-#	  : ##::'##:::: ##: ##: ##: ##: ##:.:: ##:
-#	  '####:. #######::. ###. ###:: ##:::: ##:
-#	  ....:::.......::::...::...:::..:::::..::
+# '####::'#######::'##:::::'##:'##::::'##:
+# . ##::'##.... ##: ##:'##: ##: ###::'###:
+# : ##::..::::: ##: ##: ##: ##: ####'####:
+# : ##:::'#######:: ##: ##: ##: ## ### ##:
+# : ##:::...... ##: ##: ##: ##: ##. #: ##:
+# : ##::'##:::: ##: ##: ##: ##: ##:.:: ##:
+# '####:. #######::. ###. ###:: ##:::: ##:
+# ....:::.......::::...::...:::..:::::..::
 
 
 
@@ -56,7 +56,7 @@ client.background       #121212
 
 
 #====FONTS==============================================================
-font pango:FontAwesome, Ubuntu 12
+font pango:FontAwesome 12
 
 #====GAPS Settings======================================================
 
@@ -80,30 +80,21 @@ for_window [class="^.*"] border pixel 1
 
 #====Startup Items======================================================
 
-#exec /usr/bin/gnome-settings-daemon
 exec_always --no-startup-id killall polybar; while pgrep -x polybar >/dev/null; do sleep 1; done; polybar top -c "/home/dark/.config/polybar/config" &
 exec --no-startup-id xset -b &
 exec --no-startup-id menutray -i -r &
 exec --no-startup-id compton -b &
 exec --no-startup-id nm-applet &
-#exec --no-startup-id volumeicon &
 exec --no-startup-id blueman-applet &
 exec --no-startup-id nitrogen --restore &
 exec --no-startup-id transmission-daemon &
 exec_always --no-startup-id parcellite &
 exec --no-startup-id sleep 5 && redshift-gtk &
-exec synclient TapButton1=1 TapButton2=3 TapButton3=2
-# refresh xresources for urxvt
+#Tap refresh xresources for urxvt
 exec_always --no-startup-id xrdb ~/.Xresources
 exec xrandr --output HDMI1 --auto --left-of DP3 hdmi out
 #exec --no-startup-id blueberry-tray
 
-
-#exec --no-startup-id wicd-gtk -t
-#exec --no-startup-id nm-applet &
-#exec --no-startup-id sleep 3 && volumeicon
-#exec --no-startup-id sleep 3 && xfce4-power-manager
-#exec --no-startup-id volwheel 
 #exec --no-startup-id megasync
 #exec --no-srartup-id xclip
 
@@ -115,8 +106,10 @@ bindsym $mod+space exec rofi -show run
 bindsym $mod+Return exec urxvt
 bindsym $mod+c exec chromium
 bindsym $mod+b exec chromium
-bindsym $mod+p exec pcmanfm
+bindsym $mod+p exec thunar
 bindsym $mod+t exec subl3
+bindsym $mod+g exec code
+#bindsym $mod+m exec spotify --force-device-scale-factor=2.5
 
 
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -205,19 +198,20 @@ bindsym $mod+d focus child
 
 #===WORKSPACES==========================================================
 set $WS1 1:
-set $WS2 2:
-set $WS3 3:
-set $WS4 4:
-set $WS5 5:
-set $WS6 6:
-set $WS7 7:
-set $WS8 8:
-set $WS9 9:
+set $WS2 2:
+set $WS3 3:
+set $WS4 4:
+set $WS5 5:
+set $WS6 6:
+set $WS7 7:
+set $WS8 8:
+set $WS9 9:
 
 
 
 
 workspace_auto_back_and_forth yes
+#bindsym $mod+x workspace back_and_forth
 
 # move using arrow keys to different workspaces
 bindsym $mod+Mod4+Right workspace next
@@ -264,12 +258,8 @@ for_window [class="Chromium"] focus
 assign [class="Subl3"] $WS3
 for_window [class="Subl3"] focus
 
-
-assign [class="jetbrains-webstorm"] $WS2
-for_window [class="jetbrains-webstorm"] focus
-
-assign [class="Atom"] $WS2
-for_window [class="Atom"] focus
+assign [class="Code"] $WS2
+for_window [class="Code"] focus
 
 assign [class="Vmware"] $WS5
 for_window [class="Vmware"] focus
@@ -277,20 +267,19 @@ for_window [class="Vmware"] focus
 assign [class="Transmission"] $WS7
 for_window [class="Transmission"] focus
 
-assign [class="Pcmanfm"] $WS8
-for_window [class="Pcmanfm"] focus
+assign [class="Thunar"] $WS8
+for_window [class="Thunar"] focus
+
+assign [class="robo3t"] $WS6
+for_window [class="robo3t"] focus
 
 
 for_window [urgent="latest" class="Atom"] focus
 for_window [urgent="latest" class="Chromium"] focus
 for_window [urgent="latest" class="Subl3"] focus
-for_window [urgent="latest" class="Pcmanfm"] focus
+for_window [urgent="latest" class="Code"] focus
+for_window [urgent="latest" class="Thunar"] focus
 for_window [urgent="latest" class="Transmission"] focus
-for_window [urgent="latest" class="jetbrains-webstorm"] focus
-
-
-
-
 
 
 # reload the configuration file
